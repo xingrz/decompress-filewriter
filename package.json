@@ -1,0 +1,38 @@
+{
+  "name": "@xingrz/decompress-filewriter",
+  "version": "1.0.0",
+  "description": "File writer module for @xingrz/decompress",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "jest",
+    "prepublishOnly": "rm -rf lib && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingrz/decompress-filewriter.git"
+  },
+  "keywords": [
+    "decompress"
+  ],
+  "author": "XiNGRZ <hi@xingrz.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xingrz/decompress-filewriter/issues"
+  },
+  "homepage": "https://github.com/xingrz/decompress-filewriter#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "strip-dirs": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.7",
+    "@xingrz/decompress-types": "^1.0.2",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  }
+}

@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+
+/.vscode
+/.github
+
+/src
+/test
+/jest.config.js
+
+/tsconfig.json
